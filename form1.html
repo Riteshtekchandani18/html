@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Html</title>
+</head>
+<body>
+    <form method = "post" enctype="multipart/form-data">
+        <input type="text" name="username" id="username" placeholder="Username" required maxlength="20" size = "25" pattern="[A-Z a-z 0-9]+">
+        <br><br>
+        <input type="email" name="email" id ="email" placeholder="E-mail" ><br><br>
+        <input type="tel" name="phone" placeholder="phone no" id ="no"><br><br>
+        <input type="date" name ="Date of birth" id = "dob" ><br><br>
+        <input type="datetime-local" name="Date and tome of place" id="datetime"><br><br>
+        <input type="file" name="Avatar" id="Avaar"><br><br>
+        <input type="checkbox" name="agree" id="agree">Do u agree with the above terms and conditions
+        <br><br><p>Your favotive fruit</p>
+        <input type="radio" name="ff" id="f1f" value = "apple">apple   <br><br>
+        <input type="radio" name="ff" id="f2f" value = "pineApPle">Pineapple <br><br>
+        <input type="radio" name="ff" id="f3f" value = "mango">MANGO
+        <br><br><p>About your study</p>
+        <select name="education" id="education">            <option value="1"> Graduate</option>
+            <option value="2"> post-Graduate</option>
+            <option value="3"> PHD</option>
+            <option value="4">Intermediate</option> </select>
+            <br><br>
+            <p>Rate Your Skills</p>
+            <input type="Range" name="Rating" id="Rating">
+            <input type="hidden" name="Secret" value ="Something Spice in this available"><br><br>
+            <input type="submit" value="send">
+    </form>
+</body>
+</html>
