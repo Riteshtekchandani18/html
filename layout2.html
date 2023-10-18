@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         body{
+            background-color: rgb(18,23,40 );
+            color: white;
+         }
+         section{
+            min-height: 90vh;/*view code height*/
+            max-width: 90%;
+            margin-inline: auto;
+        
+         }
+         header{
+            padding-top: 5rem;
+         }
+         .nav-list{
+             font-weight: bolder;
+             color: white;
+             font-size: 3rem;
+             text-decoration: none;
+             font-family: sans-serif;
+             display: flex;
+             align-items: center;
+             gap: 1rem;
+         }
+        .logo{
+            width: 2.5rem;
+            height: 2.5rem;
+            filter: invert(1);
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .col{
+           /* background-color: aqua;  */
+           height: 80vh;
+        }
+        .hero{
+            display: grid;
+            justify-content: center;
+        }
+        .col h1{
+            font-size: 6rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <header>
+                <nav >
+                <a class="nav-list" href="#"><img src="static/images/logo1.jpg" alt="logo" class="logo">kinnectric</a>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="col">
+                <h1 >Always Stay Connected</h1>
+                <button>Learn more</button>
+            </div>
+            <div class=" col hero"> <a href="#"><img src="static/images/1.png" alt="images1"></a></div></div>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </main>
+</body>
+</html>
